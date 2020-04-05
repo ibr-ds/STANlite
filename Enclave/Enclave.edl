@@ -1,0 +1,16 @@
+enclave {
+    trusted {
+        /* define ECALLs here. */
+        public int ecall_speedtest1_main(int argc, [user_check] char **argv);
+
+        public int synthetic(char engine, char test);
+        public int init([user_check]void *cold);
+
+    };
+
+    untrusted {
+        void ocall_printf([in, string] const char *str);
+        int64_t ocall_get_time();
+        void ocall_exit(int exit_status);
+    };
+};
