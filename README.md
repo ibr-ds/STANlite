@@ -46,6 +46,8 @@ after each new patch. Here some values measured on the same hardware, but with d
 
 Hardware: Intel(R) Xeon(R) CPU E3-1230 v5 @ 3.40GHz
 
+Total execution time in seconds:
+
 |data		|Native|Vanilla	|nnI|CnI|CFI|
 |----		|------	|-------|---|---|---|
 |[xx.12.2017](results/initial.md)	|136	|554	|373|305|371|
