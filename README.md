@@ -18,9 +18,8 @@ The original paper is avaliable [here](https://www.ibr.cs.tu-bs.de/users/sartako
     year={2018},
     organization={IEEE}
 }
-
-
 ```
+
 ## Build
 
 * Change configuration of the engine in `vme_config.h`
